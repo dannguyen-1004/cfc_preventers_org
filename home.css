@@ -1,0 +1,81 @@
+
+body{
+    background-color: #eddaa6;
+    position: relative;
+    width: inherit;
+    height: 1050px;
+    overflow-x: hidden;
+}
+h1{
+    display: block;
+    font-size: 5em;
+    color: #324149;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 20% 55%;
+}
+#global{
+    width: 50em;
+    margin-left:60%;
+    margin-top: 15%;
+}
+#nav_bar a{
+    text-decoration: none;
+    font-size: 120%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    color: #324149;
+}
+#nav_bar{
+    margin-top: 40px;
+    margin-left: 57%;
+    position: relative;
+    z-index: 2;
+}
+#protect{
+    width: 70%;
+    position: relative;
+    top: -110%;
+    right: -40%;
+    opacity: 0.5;
+}
+h2{
+    font-size: 3em;
+    color: #324149;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+}
+p{
+    font-size: 25px;
+    color: #324149;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 5%;
+}
+#dark_part{
+    width: 50in;
+    margin-left: -20%;
+    height: 1000px;
+    background-color: #324149;
+    margin-top: 20%;
+    position: relative;
+}
+div h3{
+    font-family: 'Lato', sans-serif;
+    color: #eddaa6;
+    margin-bottom: 4.3cm;
+    font-size: 30px;
+    text-align: right;
+}
+#hand{
+    margin-left: 54%;
+    width: 47%;
+}
+page-wrap{
+    display: -webkit-box-flex;
+    display: flex;
+    -webkit-flex: 1 1 300px;
+
+}
